@@ -1,0 +1,280 @@
+body {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    color: white;
+    overflow: hidden;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+}
+.one {
+    background-color: rgb(0, 0, 0);
+    width: 300px;
+    
+}
+
+.two {
+    background-color: #121212;
+    flex: 1;
+    border-radius: 1rem;
+    margin-top: 0.2rem;
+    margin-left: 0.3rem;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.three {
+    background-color: rgb(0, 0, 0);;
+    position: fixed;
+    bottom: 0;
+    height: 4rem;
+    width: 100%;
+    display: flex;
+}
+ 
+.home {
+    height: 100px;
+    background-color: #121212;
+    border-radius: 1rem;
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+   
+   padding: 1rem 1rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-option {
+   line-height: 2.5rem;
+   opacity: 0.7;
+}
+
+.nav-option:hover {
+    line-height: 2.5rem;
+    opacity: 1;
+ }
+
+.nav-option i {
+    font-size: 1.2rem;
+   color: white; 
+}
+
+ .nav-option a {
+    font-size: 1.1rem;
+    margin-left: 1rem;
+}
+
+.library {
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 100%;
+    margin-top: 0.5rem;
+    padding: 1rem 1rem;
+}
+
+.option {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lib-option img{
+    height: 1.25rem;
+}
+
+.icon {
+    margin-top: 0.8rem;
+}
+
+.icon i {
+    opacity: 0.7;
+    padding-right: 1rem ;
+}
+
+.icon i:hover {
+    opacity: 1;
+}
+
+.box {
+    background-color: #232323;
+    height: 6rem;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+   margin-top: 0.7rem;
+}
+
+.box-p1 {
+    font-size: 1rem;
+    font-weight: 500;
+    ;
+}
+
+.box-p2 {
+    font-size: 0.75rem;
+    opacity: 0.8;
+    margin-top: 0.5rem;
+}
+
+.badge {
+    border: none;
+    background-color: white;
+    border-radius: 1rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.top-nav {
+    position: sticky;
+    background-color: #121212;
+    height: 3rem;
+   display: flex;
+   align-content: center;
+   justify-content: space-between;
+   width: 100%;
+    box-sizing: border-box;
+    top: 0;
+    z-index: 10;
+}
+
+.back img {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.back {
+    align-content: center;
+    margin-left: 1rem;
+}
+
+.yt {
+    margin-right: 1rem;
+}
+
+.card {
+    background-color: #232323;
+    width: 9rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.content {
+    padding: 0 1.5rem 0 1.5rem;
+}
+
+.card-head {
+    font-weight: 600;
+}
+
+.card-info {
+    font-size: 0.85rem;
+    opacity: 0.7;
+}
+
+@media (max-width: 1000px){
+    .v {
+        display: none;
+    }
+}
+
+.extra {
+    height: 300px;
+}
+
+.er {
+    height: 1rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+.bl {
+    width: 25%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+}
+
+.bc {
+    width: 50%;
+   
+}
+.br {
+    width: 25%;
+    display: flex;
+}
+
+.bct {
+    display: flex;
+    justify-content: center;
+}
+
+.bcb {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.6rem;
+}
+
+.play-back {
+    width: 70%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.play-back::-webkit-slider-runnable-track {
+    height: 0.25rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.play-back::-webkit-slider-thumb {
+    height: 1rem;
+    width: 1rem;
+    appearance: none;
+    background-color: #1bd760;
+    border-radius: 50%;
+    margin-top: -0.4rem;
+}
+
+.day {
+    margin-bottom: 1rem;
+}
+
+.day p {
+    margin-left: 0.5rem;
+}
+
+.bh {
+    height: 2rem;
+    margin-top: 1rem;
+    margin-left: 5rem;
+}
+
+.bhs {
+    height: 3rem;
+    margin-top: 0.5rem;
+    margin-left: 0rem;
+}
+
+.last {
+    height: 1.5rem;
+    margin-left: 1rem;
+}
